@@ -8,8 +8,6 @@ export default props => {
     const ifChildren = props.children.filter(child => {
         return child !== elseChild
     })
-
-
     if (props.test) {
         return ifChildren
     }
